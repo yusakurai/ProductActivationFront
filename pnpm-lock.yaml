@@ -48,8 +48,8 @@ importers:
         specifier: 3.41.0
         version: 3.41.0(graphql@16.8.1)
       '@pothos/plugin-scope-auth':
-        specifier: 3.20.0
-        version: 3.20.0(@pothos/core@3.41.0)(graphql@16.8.1)
+        specifier: 4.1.0
+        version: 4.1.0(@pothos/core@3.41.0)(graphql@16.8.1)
       '@pothos/plugin-simple-objects':
         specifier: 3.7.0
         version: 3.7.0(@pothos/core@3.41.0)(graphql@16.8.1)
@@ -4446,11 +4446,11 @@ packages:
       graphql: 16.8.1
     dev: false
 
-  /@pothos/plugin-scope-auth@3.20.0(@pothos/core@3.41.0)(graphql@16.8.1):
-    resolution: {integrity: sha512-yaAWScp6ob5uG9Ob8YMTTga8DECANx5HW9q/bz4r66RifO/ZNEr1szXl6WpuyhqhGdasvTpzoYakVrYgs8J8wQ==}
+  /@pothos/plugin-scope-auth@4.1.0(@pothos/core@3.41.0)(graphql@16.8.1):
+    resolution: {integrity: sha512-xSMV7xHZAahGmtYEoibjBgJ7Y6v6GSALOt3ZS2lZMaPKuoPFf9uz4r8N0ecz2lopwHH1u88f7thN+kgurqUvtw==}
     peerDependencies:
       '@pothos/core': '*'
-      graphql: '>=15.1.0'
+      graphql: '>=16.6.0'
     dependencies:
       '@pothos/core': 3.41.0(graphql@16.8.1)
       graphql: 16.8.1
